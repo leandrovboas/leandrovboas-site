@@ -1,0 +1,70 @@
+{
+  "Header": {
+    "home": "Home",
+    "experiencias": "Experiencias",
+    "tecnologias": "Tecnologias",
+    "contato": "Contato"
+  },
+  "Home": {
+    "HomeHero": {
+      "title": "Olá",
+      "sub-title": "Me chamo Leandro",
+      "_nome": "Nome : ",
+      "primeiro": "Leandro,",
+      "_sobrenome": "Sobrenome : ",
+      "sobrenome": "Vilas Boas",
+      "_github": "Github : ",
+      "github": "Leandrovboas",
+      "comentario1": "//Minha apresentação",
+      "comentario2": "//Infos profissionais",
+      "infos": "Infos",
+      "cargo": "Cargo",
+      "_funcao": "Função : ",
+      "funcao": "Engenheiro de Software",
+      "_empresa": "Empresa : ",
+      "empresa": "Lambda3"
+    },
+    "Experiencias": {
+      "anos": "anos",
+      "sub-title": "de experiência"
+    },
+    "Projetos": {
+      "title": "Últimos Projetos",
+      "botao": "Ver todos os projetos",
+      "detalhes": "Veja mais"
+    },
+    "conhecimentos": {
+      "title": "Tecnologias",
+      "subtitle": "Alguns Conhecimentos"
+    },
+    "certificacoes": "Certificações"
+  },
+  "Contato": {
+    "title": "Entre em contato comigo",
+    "sub-title1": "Preencha o formulário abaixo",
+    "sub-title2": "que eu vou te responder em breve",
+    "Formulario": {
+      "nome": "Nome",
+      "email": "E-mail",
+      "mensagem": "Mensagem",
+      "enviar": "Enviar"
+    }
+  },
+  "Contato2": {
+    "title": "Entre em contato comigo",
+    "sub-title1": "Segue abaixo algumas formas de me encontrar",
+    "sub-title2": ""
+  },
+  "contrucao": {
+    "Construindo": "Construindo..."
+  },
+  "blog": {
+    "title": "Bonvildo ao meu blog"
+  },
+  "Footer": {
+    "topo": "Voltar ao topo"
+  },
+  "ErroInterno": {
+    "erroInterno": "Tivemos um problema para carregar as informações"
+  }
+}
