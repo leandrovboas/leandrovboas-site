@@ -14,5 +14,5 @@ jobs:
           node-version: 18.
       - name: run install and build
         run: |
-          npm install
+          npm install --force
           npm run build

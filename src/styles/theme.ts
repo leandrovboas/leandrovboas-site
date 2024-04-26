@@ -43,10 +43,6 @@ const theme = {
 // #B6E5EB
 // #ffffff
 
-//old
-// #3A3A3A
-// #00c1c5
-
 
 
 
