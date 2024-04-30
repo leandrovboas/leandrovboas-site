@@ -1,43 +1,36 @@
-import { useTranslations } from 'next-intl';
-import HomeCard from '../HomeCard';
-import { Container, InfosContainer, CodeItem } from './styles';
+import HomeCard from "../HomeCard";
+import { Container, InfosContainer, CodeItem } from "./styles";
 
 function HomeHero() {
-  const t = useTranslations('Home.HomeHero');
   return (
     <Container data-aos="fade-up">
       <HomeCard />
       <div>
         <InfosContainer>
           <CodeItem data-aos="zoom-in">
-            <span className="comment">{String(t('comentario1'))}</span>
-            <span className="purple">{String(t('infos'))}</span> {'\u007B'}
+            <span className="comment">//Minha apresentação</span>
+            <span className="purple">Infos</span> {"\u007B"}
             <div>
-              {String(t('_nome'))}
-              <span className="blue">{String(t('primeiro'))}</span>
+              Nome : <span className="blue">Leandro,</span>
             </div>
             <div>
-              {String(t('_sobrenome'))}
-              <span className="blue">{String(t('sobrenome'))}</span>
+              Sobrenome :<span className="blue">Vilas Boas</span>
             </div>
             <div>
-              {String(t('_github'))}
-              <span className="blue">{String(t('github'))}</span>
+              Github :<span className="blue">Leandrovboas</span>
             </div>
-            {'\u007D'}
+            {"\u007D"}
           </CodeItem>
           <CodeItem data-aos="zoom-in">
-            <span className="comment">{String(t('comentario2'))}</span>
-            <span className="purple">{String(t('cargo'))}</span> {'\u007B'}
+            <span className="comment">//Infos profissionais</span>
+            <span className="purple">Cargo</span> {"\u007B"}
             <div>
-              {String(t('_funcao'))}
-              <span className="blue">{String(t('funcao'))}</span>
+              Função : <span className="blue">Engenheiro de Software</span>
             </div>
             <div>
-              {String(t('_empresa'))}{' '}
-              <span className="blue">{String(t('empresa'))}</span>
+              Empresa : <span className="blue">Lambda3 / Tivit</span>
             </div>
-            {'\u007D'}
+            {"\u007D"}
           </CodeItem>
         </InfosContainer>
       </div>

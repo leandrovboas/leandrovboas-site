@@ -1,9 +1,11 @@
+
+ 
 import { useEffect, useState } from 'react';
 
 const useScrollPosition = () => {
   if (typeof window === 'undefined') return 500;
 
-  const [scrollPostion, setScrollPostion] = useState(0);
+  const [scrollPosition, setScrollPosition] = useState(0);
 
   const getDocHeight = () =>
     Math.max(
@@ -16,13 +18,13 @@ const useScrollPosition = () => {
     );
 
   const calculateScrollDistance = () => {
-    const scrollTop = window.pageYOffset; // how much the user has scrolled by
+    const scrollTop = window.scrollY; // how much the user has scrolled by
     const winHeight = window.innerHeight;
     const docHeight = getDocHeight();
 
     const totalDocScrollLength = docHeight - winHeight;
-    const postion = Math.floor((scrollTop / totalDocScrollLength) * 100);
-    setScrollPostion(postion);
+    const position = Math.floor((scrollTop / totalDocScrollLength) * 100);
+    setScrollPosition(position);
   };
 
   useEffect(() => {
@@ -39,7 +41,7 @@ const useScrollPosition = () => {
     return () => window.removeEventListener('resize', listenToScrollEvent);
   });
 
-  return scrollPostion;
+  return scrollPosition;
 };
 
 export default useScrollPosition;

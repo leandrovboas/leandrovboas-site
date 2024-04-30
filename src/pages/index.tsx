@@ -1,23 +1,15 @@
-import Aos from 'aos';
-import { useEffect } from 'react';
-import Head from 'next/head';
-import { Element, Link } from 'react-scroll';
-import Experiencias from '../components/Experiencias';
-import HomeHero from '../components/HomeHero';
-import { HomeContainer } from '../styles/HomeStyles';
-import Conhecimentos from '../components/Conhecimentos';
-import 'aos/dist/aos.css';
-import ArrowDownPage from '../components/ArrowDownPage';
+import { Inter } from "next/font/google";
+import Head from "next/head";
+import { Element } from "react-scroll";
+import { HomeContainer } from "@/styles/HomeStyles";
+import HomeHero from "@/components/HomeHero";
+import ArrowDownPage from "@/components/ArrowDownPage";
+import Experiencias from "@/components/Experiencias";
+import Tecnologias from "@/components/Tecnologias";
+
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-  useEffect(() => {
-    Aos.init({ duration: 1500 });
-  }, []);
-
-  const durationFn = function (deltaTop: any) {
-    return deltaTop;
-  };
-
   return (
     <HomeContainer>
       <Head>
@@ -36,23 +28,12 @@ export default function Home() {
         <Element name="home" className="home" id="containerElement">
           <HomeHero />
         </Element>
-        {/* <Link
-          href="/"
-          activeClass="active"
-          className={'expe'}
-          to={'expe'}
-          spy={true}
-          smooth={true}
-          duration={durationFn}
-        >
-          <ArrowDownPage />
-        </Link> */}
         <ArrowDownPage />
         <Element name="expe" className="expe" id="containerElement">
           <Experiencias />
         </Element>
         <Element name="tech" className="tech" id="containerElement">
-          <Conhecimentos />
+          <Tecnologias />
         </Element>
       </main>
     </HomeContainer>

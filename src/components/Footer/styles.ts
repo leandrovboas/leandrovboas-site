@@ -4,7 +4,7 @@ interface ButtonProps {
   ScrollPosition: number;
 }
 
-export const Button = styled.button<ButtonProps>`
+export const Container = styled.div<ButtonProps>`
   display: relative;
   border-top: 0.5rem solid ${({ theme }) => theme.primary};
   border-left: 0;
@@ -27,7 +27,7 @@ export const Button = styled.button<ButtonProps>`
   }
 `;
 
-export const Container = styled.footer`
+export const ContainerFooter = styled.footer`
   width: 100%;
   display: flex;
   height: 4rem;
@@ -52,7 +52,7 @@ export const Container = styled.footer`
 
       &:hover {
         color: ${({ theme }) => theme.primary};
-        font-size: 1.3rem;
+        font-size: 3.2rem;
       }
     }
     > section {

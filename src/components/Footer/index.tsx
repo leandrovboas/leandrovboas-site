@@ -1,36 +1,32 @@
-import { useTranslations } from 'next-intl';
 import {
   AiOutlineTwitter,
   AiOutlineGithub,
   AiFillLinkedin,
   AiOutlineMedium,
   AiOutlineInstagram
-} from 'react-icons/ai';
-import { Button, Container } from './styles';
-import { IoLogoPython } from 'react-icons/io';
-import { FaArrowAltCircleUp } from 'react-icons/fa';
+} from "react-icons/ai";
+import { ContainerFooter, Container } from "./styles";
+import { FaArrowAltCircleUp } from "react-icons/fa";
 
 interface FooterProps {
   scrollPosition: number;
 }
 
 function Footer({ scrollPosition }: FooterProps) {
-  const t = useTranslations('Footer');
-
-  function handleRedirect(url: string) {
+  function handleRedirect(url: string | undefined) {
     window.open(url);
   }
 
   function handleScrollTop() {
     window.scroll({
       top: 0,
-      behavior: 'smooth'
+      behavior: "smooth"
     });
   }
 
   return (
-    <Button ScrollPosition={scrollPosition}>
-      <Container>
+    <Container ScrollPosition={scrollPosition}>
+      <ContainerFooter>
         <div className="container">
           <button type="button" onClick={handleScrollTop}>
             <FaArrowAltCircleUp />
@@ -53,8 +49,8 @@ function Footer({ scrollPosition }: FooterProps) {
             />
           </section>
         </div>
-      </Container>
-    </Button>
+      </ContainerFooter>
+    </Container>
   );
 }
 

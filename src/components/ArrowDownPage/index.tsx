@@ -1,4 +1,4 @@
-import { ArrowContainer } from './styles';
+import { ArrowContainer } from "./styles";
 
 function ArrowDownPage() {
   return (

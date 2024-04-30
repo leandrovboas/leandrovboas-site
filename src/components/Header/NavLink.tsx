@@ -1,6 +1,6 @@
-import { useRouter } from 'next/router';
-import { NavLinkContainer } from './styles';
-import { Link } from 'react-scroll';
+import { useRouter } from "next/router";
+import { NavLinkContainer } from "./styles";
+import { Link } from "react-scroll";
 
 interface Props {
   title: string;
@@ -9,7 +9,12 @@ interface Props {
   section: string;
 }
 
-export default function NavLink({ title, path, includes, section }: Props) {
+export default function NavLink({
+  title,
+  path,
+  includes,
+  section
+}: Readonly<Props>) {
   const router = useRouter();
 
   const durationFn = function (deltaTop: any) {
@@ -23,9 +28,9 @@ export default function NavLink({ title, path, includes, section }: Props) {
     return path === router.pathname;
   }
 
-  const isActive = verifyIfIsActive();
+  const isactive = verifyIfIsActive().toString();
   return (
-    <NavLinkContainer isActive={isActive}>
+    <NavLinkContainer isactive={isactive}>
       <Link
         href={path}
         activeClass="active"
@@ -35,7 +40,7 @@ export default function NavLink({ title, path, includes, section }: Props) {
         smooth={true}
         duration={durationFn}
       >
-        <a> &lt; {title} &gt;</a>
+        &lt; {title} &gt;
       </Link>
     </NavLinkContainer>
   );

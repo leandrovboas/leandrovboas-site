@@ -1,4 +1,4 @@
-import { ItemContainer } from './styles';
+import { ItemContainer } from "./styles";
 
 interface ExperienciaProps {
   year: string;

@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
-export const ArrowContainer  = styled.li`
-{
+export const ArrowContainer  = styled.div`
   position:relative;
   width:6rem;
   height:6rem;
@@ -45,8 +44,6 @@ export const ArrowContainer  = styled.li`
         animation-delay:0.8s;
       }
     }
-  }
-}
 @keyframes animate{
   0%{
     border-color:${({ theme }) => theme.secondary};

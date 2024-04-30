@@ -2,7 +2,7 @@ import { lighten } from 'polished';
 import styled from 'styled-components';
 
 interface NavLinkProps {
-  isActive: boolean;
+  isactive: string;
 }
 
 export const Container = styled.header`
@@ -99,12 +99,12 @@ export const NavLinkContainer = styled.li<NavLinkProps>`
   a {
     text-transform: uppercase;
     color: ${props =>
-      props.isActive ? props.theme.primary : props.theme.textHighlight};
+      props.isactive ? props.theme.primary : props.theme.textHighlight};
     transition: 0.5s;
 
     &:hover {
       color: ${props =>
-        props.isActive
+        props.isactive
           ? lighten(0.2, props.theme.primary)
           : lighten(0.2, props.theme.textHighlight)};
     }
@@ -115,7 +115,7 @@ export const NavLinkContainer = styled.li<NavLinkProps>`
       height: 0.2rem;
       width: 0%;
       background-color: ${props =>
-        props.isActive
+        props.isactive
           ? lighten(0.2, props.theme.primary)
           : lighten(0.2, props.theme.textHighlight)};
       transition: all ease-in-out 250ms;

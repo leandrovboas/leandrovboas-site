@@ -1,21 +1,26 @@
-import { useTranslations } from 'next-intl';
-import SectionTitle from '../SectionTitle';
-import ExperienciaItem from './ExperienciaItem';
-import { Container } from './styles';
-import { getAnosDeExperiencia } from '../../utils/anosDeExperiencia';
-import { FcKindle } from 'react-icons/fc';
+import SectionTitle from "../SectionTitle";
+import ExperienciaItem from "./ExperienciaItem";
+import { Container } from "./styles";
+import { getAnosDeExperiencia } from "../../utils/anosDeExperiencia";
+import { FcKindle } from "react-icons/fc";
+import { useEffect, useState } from "react";
 
 function Experiencias() {
-  const t = useTranslations('Home.Experiencias');
-  const anosExperiencia = getAnosDeExperiencia(2010, new Date().getFullYear());
-  const result = `${anosExperiencia} ${String(t('anos'))}`;
+  const [anosExperiencia, setAnosExperiencia] = useState("Mais de 10");
+
+  useEffect(() => {
+    setAnosExperiencia(
+      getAnosDeExperiencia(2010, new Date().getFullYear()).toString()
+    );
+  }, []);
+  const result = `${anosExperiencia} "anos"`;
 
   return (
     <Container>
       <SectionTitle
         icon={<FcKindle />}
         title={result}
-        description={String(t('sub-title'))}
+        description="de experiência"
       />
 
       <section>

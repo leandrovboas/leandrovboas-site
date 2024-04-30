@@ -2,13 +2,7 @@
   "name": "leandrovboas-site",
   "version": "1.0.0",
   "description": "Site pessoal",
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "test": "jest",
-    "publish": "npm install && next build && next start"
-  },
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/leandrovboas/leandrovboas-site.git"
@@ -19,61 +13,30 @@
     "url": "https://github.com/leandrovboas/leandrovboas-site/issues"
   },
   "homepage": "https://github.com/leandrovboas/leandrovboas-site#readme",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "publish": "npm install && next build && next start"
+  },
   "dependencies": {
-    "@babel/core": "^7.16.5",
-    "@babel/preset-typescript": "^7.16.5",
-    "aos": "^2.3.4",
-    "build": "^0.1.4",
-    "gray-matter": "^4.0.3",
-    "keen-slider": "^6.6.4",
-    "markdown-it": "^12.3.2",
-    "next": "^14.2.3",
-    "next-images": "^1.7.0",
-    "next-intl": "^2.4.0",
-    "next-seo": "^5.1.0",
-    "nextjs-progressbar": "0.0.14",
-    "polished": "^4.1.3",
-    "react": "^18.2.0",
-    "react-dom": "^17.0.2",
-    "react-icons": "^4.3.1",
+    "next": "14.2.3",
+    "nextjs-progressbar": "^0.0.16",
+    "polished": "^4.3.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.1.0",
     "react-scroll": "^1.9.0",
     "react-vanilla-tilt": "^1.0.0",
-    "remark": "^14.0.2",
-    "remark-html": "^15.0.2",
-    "start": "^5.1.0",
-    "styled-components": "^5.3.1"
+    "styled-components": "^6.1.8"
   },
   "devDependencies": {
-    "@testing-library/dom": "^8.11.3",
-    "@testing-library/jest-dom": "^5.16.2",
-    "@testing-library/react": "^12.1.3",
-    "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.4.1",
-    "@types/node": "^15.3.0",
-    "@types/react": "^17.0.5",
+    "@types/node": "^20",
+    "@types/react": "^18",
     "@types/react-scroll": "^1.8.10",
-    "@types/styled-components": "^5.1.9",
-    "@typescript-eslint/eslint-plugin": "^4.23.0",
-    "@typescript-eslint/parser": "^4.23.0",
-    "babel-jest": "^27.5.1",
-    "babel-plugin-inline-react-svg": "^2.0.1",
-    "cz-conventional-changelog": "3.3.0",
-    "eslint": "^7.26.0",
-    "eslint-config-airbnb": "^18.2.1",
-    "eslint-config-airbnb-typescript": "^12.3.1",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "^2.23.2",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-prettier": "^3.4.0",
-    "eslint-plugin-react": "^7.23.2",
-    "eslint-plugin-react-hooks": "^4.2.0",
-    "jest": "^27.5.1",
-    "prettier": "^2.3.0",
-    "typescript": "^4.2.4"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
+    "@types/styled-components": "^5.1.34",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "typescript": "^5"
   }
 }
