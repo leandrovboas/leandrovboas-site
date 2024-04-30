@@ -1,11 +1,9 @@
-import { useTranslations } from 'next-intl';
-import { Container } from './styles';
+import { Container } from "./styles";
 
 function EmConstrucao() {
-  const t = useTranslations('contrucao');
   return (
     <Container>
-      <h1 data-text={String(t('Construindo'))}>{String(t('Construindo'))}</h1>
+      <h1 data-text="Construindo...">Construindo...</h1>
     </Container>
   );
 }

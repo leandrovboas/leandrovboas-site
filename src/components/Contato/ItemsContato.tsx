@@ -1,9 +1,9 @@
-import { ReactNode } from 'react';
-import { ItemContainer } from './styles';
+import { ReactNode } from "react";
+import { ItemContainer } from "./styles";
 
 interface Props {
   title: string;
-  path: string;
+  path?: string;
   icon: ReactNode;
 }
 

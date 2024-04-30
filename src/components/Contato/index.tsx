@@ -1,26 +1,23 @@
-import { useTranslations } from 'next-intl';
 import {
   AiFillLinkedin,
   AiOutlineGithub,
   AiOutlineInstagram,
   AiOutlineMedium,
   AiOutlineTwitter
-} from 'react-icons/ai';
-import ItemsContato from './ItemsContato';
-import { Container } from './styles';
+} from "react-icons/ai";
+import ItemsContato from "./ItemsContato";
+import { Container } from "./styles";
 
 function Contato() {
-  const t = useTranslations('Contato2');
-
   return (
     <Container>
-      <h1># {String(t('title'))}</h1>
+      <h1># Entre em contato comigo</h1>
       <h2>
-        {' '}
+        {" "}
         <>
-          {String(t('sub-title1'))}
+          Preencha o formulário abaixo
           <br />
-          {String(t('sub-title2'))}
+          que eu vou te responder em breve
         </>
       </h2>
       <ItemsContato
