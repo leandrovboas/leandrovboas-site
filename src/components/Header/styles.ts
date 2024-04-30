@@ -105,7 +105,7 @@ export const NavLinkContainer = styled.li<NavLinkProps>`
     &:hover {
       color: ${props =>
         props.isactive
-          ? lighten(0.2, props.theme.primary)
+          ? lighten(0.2, props.theme.textLight)
           : lighten(0.2, props.theme.textHighlight)};
     }
 
@@ -116,7 +116,7 @@ export const NavLinkContainer = styled.li<NavLinkProps>`
       width: 0%;
       background-color: ${props =>
         props.isactive
-          ? lighten(0.2, props.theme.primary)
+          ? lighten(0.2, props.theme.textLight)
           : lighten(0.2, props.theme.textHighlight)};
       transition: all ease-in-out 250ms;
     }

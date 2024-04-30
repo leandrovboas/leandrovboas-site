@@ -13,7 +13,7 @@ function Experiencias() {
       getAnosDeExperiencia(2010, new Date().getFullYear()).toString()
     );
   }, []);
-  const result = `${anosExperiencia} "anos"`;
+  const result = `${anosExperiencia} anos`;
 
   return (
     <Container>
