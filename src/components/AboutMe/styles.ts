@@ -9,7 +9,7 @@ export const AboutContainer = styled.div`
   gap: 2rem;
   align-items: center;
   justify-content: center;
-  margin-top: 6rem;
+  margin-top: 5rem;
   padding-bottom: 5rem;
   padding-top:4rem;
 

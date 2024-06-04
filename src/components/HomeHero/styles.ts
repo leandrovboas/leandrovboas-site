@@ -5,8 +5,8 @@ export const Container = styled.section`
   gap: 2rem;
   align-items: center;
   justify-content: center;
-  margin-top: 6rem;
-  padding-bottom: 5rem;
+  margin-top: 4rem;
+  padding-bottom: rem;
   padding-top:4rem;
 
   > div {

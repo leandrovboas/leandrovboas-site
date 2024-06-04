@@ -12,6 +12,8 @@ export const Container = styled.section`
 
     @media (max-width: 1000px) {
       gap: 3rem;
+      flex-wrap: wrap;
+      margin-top: 5rem;
     }
 
     @media (max-width: 750px) {
@@ -43,12 +45,35 @@ export const TecnologiasContainer = styled.div`
     transition: 0.3s;
   }
 
+  @media (max-width: 1400px) {
+    p {
+      font-size: 1rem;
+    }
+    svg {
+      width: 3rem;
+      height: 3rem;
+    }
+    }
+
+    @media (max-width: 750px) {
+      p {
+      font-size: 0.8rem;
+    }
+    svg {
+      width: 3rem;
+      height: 3rem;
+    }
+    }
+
   &:hover {
     svg {
+      width: 5rem;
+    height: 5rem;
       color: ${({ theme }) => theme.primary};
       transform: scale(0.95);
     }
     p {
+      font-size: 1.2rem;
       font-weight: 500;
     }
   }
@@ -62,4 +87,5 @@ export const TecnologiasContainer = styled.div`
       height: 3rem;
     }
   }
+
 `;

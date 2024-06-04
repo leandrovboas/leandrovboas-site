@@ -31,7 +31,7 @@ function Conhecimentos() {
         <TecnologiasItem title="Nextjs" icon={<SiNextdotjs />} />
         <TecnologiasItem title="NestJs" icon={<SiNestjs />} />
         <TecnologiasItem title="JavaScript" icon={<IoLogoJavascript />} />
-        <TecnologiasItem title="Python" icon={<IoLogoPython />} />
+        {/* <TecnologiasItem title="Python" icon={<IoLogoPython />} /> */}
       </section>
     </Container>
   );
