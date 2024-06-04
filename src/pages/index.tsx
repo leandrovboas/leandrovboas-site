@@ -6,6 +6,7 @@ import HomeHero from "@/components/HomeHero";
 import ArrowDownPage from "@/components/ArrowDownPage";
 import Experiencias from "@/components/Experiencias";
 import Tecnologias from "@/components/Tecnologias";
+import { AboutMe } from "@/components/AboutMe";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,6 +30,9 @@ export default function Home() {
           <HomeHero />
         </Element>
         <ArrowDownPage />
+        <Element name="about" className="about" id="containerElement">
+          <AboutMe />
+        </Element>
         <Element name="expe" className="expe" id="containerElement">
           <Experiencias />
         </Element>

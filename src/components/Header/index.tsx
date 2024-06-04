@@ -10,6 +10,7 @@ function Header() {
       </h1>
       <ul>
         <NavLink title="Home" path="/" section="home" />
+        <NavLink title="About" path="/" section="about" />
         <NavLink title="experiencias" path="/" section="expe" />
         <NavLink title="tecnologias" path="/" section="tech" />
       </ul>

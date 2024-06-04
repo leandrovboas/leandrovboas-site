@@ -18,6 +18,7 @@ export const ArrowContainer  = styled.div`
       border-bottom:3px solid #fff;
       border-right:3px solid #fff;
       animation:animate 1s linear infinite;
+      z-index:-1;
       &:nth-child(1){
         top:-30px;
         left:-30px;
@@ -43,6 +44,16 @@ export const ArrowContainer  = styled.div`
         left:30px;
         animation-delay:0.8s;
       }
+    }
+    .linkClasses{
+      span{
+        position:absolute;
+        color: ${({ theme }) => theme.primary};
+        opacity: 0;
+      }
+      
+      height:200px ;
+      width:200px ;
     }
 @keyframes animate{
   0%{
