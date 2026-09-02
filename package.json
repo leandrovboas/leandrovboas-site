@@ -1,42 +1,42 @@
 {
   "name": "leandrovboas-site",
-  "version": "1.0.0",
-  "description": "Site pessoal",
+  "version": "2.0.0",
+  "description": "Portfolio pessoal de Leandro Vilas Boas — Tech Lead & Software Engineer",
   "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/leandrovboas/leandrovboas-site.git"
   },
-  "author": "leandro Vilas Boas",
+  "author": "Leandro Vilas Boas",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/leandrovboas/leandrovboas-site/issues"
   },
   "homepage": "https://github.com/leandrovboas/leandrovboas-site#readme",
+  "engines": {
+    "node": ">=20.9.0"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "publish": "npm install && next build && next start"
+    "lint": "eslint .",
+    "typecheck": "next typegen && tsc --noEmit"
   },
   "dependencies": {
-    "next": "14.2.3",
-    "nextjs-progressbar": "^0.0.16",
-    "polished": "^4.3.1",
-    "react": "^18",
-    "react-dom": "^18",
-    "react-icons": "^5.1.0",
-    "react-scroll": "^1.9.0",
-    "react-vanilla-tilt": "^1.0.0",
-    "styled-components": "^6.1.8"
+    "next": "16.3.4",
+    "next-intl": "4.14.2",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-scroll": "^1.8.10",
-    "@types/styled-components": "^5.1.34",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.3",
-    "typescript": "^5"
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "20.19.9",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.5",
+    "eslint": "9.39.5",
+    "eslint-config-next": "16.3.4",
+    "tailwindcss": "4.3.3",
+    "typescript": "5.9.3"
   }
 }

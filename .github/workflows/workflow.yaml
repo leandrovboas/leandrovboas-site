@@ -1,18 +1,23 @@
-name: Continuos Integration
+name: Continuous Integration
 
 on: [pull_request, push]
 
 jobs:
-  continuos-integration:
+  continuous-integration:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
-      - name: Using Node.js
-        uses: actions/setup-node@v2
+      - uses: actions/checkout@v4
+      - name: Use Node.js
+        uses: actions/setup-node@v4
         with:
-          node-version: 18.
-      - name: run install and build
-        run: |
-          npm install --force
-          npm run build
+          node-version: 20
+          cache: npm
+      - name: Install dependencies
+        run: npm ci
+      - name: Lint
+        run: npm run lint
+      - name: Type-check
+        run: npm run typecheck
+      - name: Build
+        run: npm run build
