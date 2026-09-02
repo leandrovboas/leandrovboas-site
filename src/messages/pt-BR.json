@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "title": "Leandro Vilas Boas — Tech Lead & Software Engineer",
+    "description": "Tech Lead e Software Engineer focado em arquitetura de software, cloud e desenvolvimento assistido por IA.",
+    "ogAlt": "Leandro Vilas Boas — Tech Lead & Software Engineer"
+  },
+  "a11y": {
+    "skipToContent": "Pular para o conteúdo principal"
+  },
+  "nav": {
+    "brand": "Leandro Vilas Boas",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu",
+    "links": {
+      "about": "Sobre",
+      "experience": "Experiência",
+      "work": "Trabalho",
+      "knowledge": "Conhecimento",
+      "contact": "Contato"
+    }
+  },
+  "hero": {
+    "nameLine1": "LEANDRO",
+    "nameLine2": "VILAS BOAS.",
+    "eyebrow": "Arquitetura de Software",
+    "introLabel": "// Introdução",
+    "roleLine1": "Tech Lead &",
+    "roleLine2": "Software Engineer.",
+    "focus": "Software Architecture · Cloud · AI-Assisted Development",
+    "description": "Projeto sistemas de software, soluções técnicas e práticas de engenharia que ajudam times a construir produtos escaláveis e sustentáveis.",
+    "ctaWork": "Ver minha trajetória →",
+    "ctaLinkedin": "LinkedIn ↗",
+    "portraitAlt": "Retrato de Leandro Vilas Boas"
+  },
+  "techStrip": [".NET", "C#", "AWS", "Architecture", "DDD", "Docker", "Kubernetes", "AI"],
+  "about": {
+    "label": "01 — Sobre",
+    "heading": "Construir software é só parte do trabalho. Desenhar sistemas e ajudar times a construí-los bem é o verdadeiro desafio.",
+    "paragraph": "Mais de 10 anos construindo software, atualmente no Lambda3 / Tivit. Atuo como referência técnica, buscando soluções eficientes para a entrega de produtos em diferentes cenários, liderando equipes técnicas e promovendo a melhoria contínua dos processos do dia a dia. Especialista em backend com Node.js, Nest.js e C#, com foco em CI/CD, automação de testes e legibilidade de código, praticando desenvolvimento ágil e as melhores práticas de DevOps. Já atuei em landing pages, portais web, dashboards, sistemas de pontos de fidelidade, pagamentos via Pix e boleto, e-commerce e chatbots — e hoje aplico essa experiência também ao desenvolvimento assistido por IA.",
+    "stats": [
+      { "value": "10+", "label": "Anos construindo software" },
+      { "value": "Tech Lead", "label": "Cargo atual" },
+      { "value": ".NET + AWS", "label": "Ecossistema principal" }
+    ]
+  },
+  "expertise": {
+    "label": "02 — Expertise",
+    "cards": [
+      {
+        "title": "Arquitetura de Software",
+        "items": ["DDD", "Clean Architecture", "Event-Driven Architecture", "Sistemas Distribuídos", "Padrões de Integração"]
+      },
+      {
+        "title": "Liderança Técnica",
+        "items": ["Decisões Técnicas", "Práticas de Engenharia", "Code Review", "Mentoria", "Capacitação de Times"]
+      },
+      {
+        "title": "Cloud & DevOps",
+        "items": ["AWS", "Docker", "Kubernetes", "CI/CD", "Observabilidade"]
+      },
+      {
+        "title": "Engenharia Assistida por IA",
+        "items": ["Spec-Driven Development", "Engenharia Reversa", "Agentes de IA", "Produtividade de Desenvolvimento", "Automação de Engenharia"],
+        "highlight": true
+      }
+    ]
+  },
+  "experience": {
+    "label": "03 — Experiência",
+    "items": [
+      {
+        "period": "Atual",
+        "role": "Engenheiro de Software",
+        "company": "Lambda3 / Tivit",
+        "description": "Referência técnica no time, buscando soluções eficientes para a entrega de produtos em diferentes cenários. Lidera equipes técnicas, promove a troca de feedbacks e a melhoria contínua dos processos do dia a dia. Especialista em backend com foco em CI/CD, automação de testes e legibilidade de código.",
+        "tech": ["C#", "Node.js", "Nest.js", "Next.js", "TypeScript", "AWS", "Azure", "Docker", "Kubernetes", "Clean Architecture"]
+      },
+      {
+        "period": "2023",
+        "role": "Desenvolvimento de Software",
+        "company": "Lambda3",
+        "description": "Desenvolvimento backend em serviços C#, Node.js e TypeScript, aplicando Arquitetura Hexagonal, SOLID e TDD, com forte prática de code review.",
+        "tech": ["C#", "Node.js", "Next.js", "Nest.js", "TypeScript", "Docker", "Azure", "Hexagonal Architecture"]
+      },
+      {
+        "period": "2018",
+        "role": "Analista Programador",
+        "company": "EICON",
+        "description": "Construção de templates .NET e componentes de backend usando .NET Core, EF Core, Dapper, Fluent Validation e Quartz.",
+        "tech": [".NET", "C#", "EF Core", "Dapper", "Quartz"]
+      },
+      {
+        "period": "2015",
+        "role": "Analista Programador",
+        "company": "Capgemini",
+        "description": "Desenvolvimento web abrangendo .NET Core, Entity Framework e SQL Server no backend, com HTML, JavaScript e AngularJS no frontend.",
+        "tech": [".NET Core", "Entity Framework", "SQL Server", "AngularJS"]
+      },
+      {
+        "period": "2011",
+        "role": "Desenvolvedor .NET",
+        "company": "Grupo Evoluti",
+        "description": "Desenvolvimento de soluções com ASP.NET MVC, WCF, Web Services, Web Forms e Windows Forms.",
+        "tech": ["ASP.NET MVC", "WCF", "Web Services", "Windows Forms"]
+      }
+    ]
+  },
+  "work": {
+    "label": "04 — Selected Work",
+    "heading": "Problemas de engenharia e decisões de arquitetura, não apenas capturas de tela.",
+    "diagramCaption": "{tag} — diagrama de arquitetura",
+    "problemLabel": "Problema",
+    "architectureLabel": "Arquitetura",
+    "outcomeLabel": "Resultado",
+    "items": [
+      {
+        "tag": "Modernização de Legado",
+        "title": "Modernização de Portais e Dashboards",
+        "problem": "Portais web e dashboards construídos em stacks mais antigas estavam ficando mais difíceis de estender com segurança.",
+        "architecture": "Engenharia reversa e modernização de sistemas legados, reconstruindo módulos-chave sobre uma arquitetura mais limpa.",
+        "outcome": "Sistemas mais fáceis de alterar e estender sem quebrar o comportamento existente.",
+        "tech": [".NET", "Node.js", "Clean Architecture"]
+      },
+      {
+        "tag": "Arquitetura de Software",
+        "title": "Plataforma de Pontos de Fidelidade",
+        "problem": "Um sistema de fidelidade por pontos precisava de regras claras e espaço para crescer sem virar um emaranhado.",
+        "architecture": "Desenho de uma arquitetura de backend modular, separando regras, contabilização e integrações em fronteiras distintas.",
+        "outcome": "Uma plataforma capaz de adicionar novas regras de fidelidade e integrações com parceiros sem retrabalhar o núcleo.",
+        "tech": ["C#", "Clean Architecture", "DDD"]
+      },
+      {
+        "tag": "Soluções em Cloud",
+        "title": "E-commerce e Pagamentos (Pix / Boleto)",
+        "problem": "Uma plataforma de e-commerce precisava de um checkout confiável com meios de pagamento locais como Pix e boleto.",
+        "architecture": "Desenho de serviços escaláveis na AWS e Azure para lidar com catálogo, checkout e processamento de pagamentos.",
+        "outcome": "Um fluxo de checkout que processa meios de pagamento locais de forma confiável em escala.",
+        "tech": ["AWS", "Azure", "Docker", "Kubernetes"]
+      },
+      {
+        "tag": "Produtividade de Desenvolvimento",
+        "title": "CI/CD e Automação de Testes",
+        "problem": "Releases manuais e testes inconsistentes estavam desacelerando a entrega em vários projetos.",
+        "architecture": "Construção de pipelines de CI/CD e suítes de testes automatizados, incorporando TDD e code review ao fluxo de trabalho do time.",
+        "outcome": "Releases mais rápidos e consistentes, com menos regressões chegando à produção.",
+        "tech": ["CI/CD", "TDD", "Docker"]
+      }
+    ]
+  },
+  "technology": {
+    "label": "05 — Tecnologia",
+    "columns": [
+      { "title": "Backend", "items": [".NET", "C#", "Node.js", "NestJS"] },
+      { "title": "Arquitetura", "items": ["DDD", "Clean Architecture", "Event Driven", "REST APIs"] },
+      { "title": "Cloud", "items": ["AWS", "Azure", "Docker", "Kubernetes"] },
+      { "title": "Engenharia", "items": ["TDD", "CI/CD", "GitHub", "Observabilidade"] },
+      { "title": "Engenharia de IA", "items": ["Agentes de IA", "Spec-Driven Development", "Desenvolvimento Assistido por IA", "Engenharia Reversa"] }
+    ]
+  },
+  "knowledge": {
+    "label": "06 — Conhecimento",
+    "heading": "Artigos e estudos sobre engenharia de software e arquitetura.",
+    "sourceLabel": "Artigo",
+    "readMore": "Ler no Medium ↗",
+    "emptyState": "Novos artigos em breve."
+  },
+  "contact": {
+    "heading": "Vamos construir algo que faça sentido.",
+    "paragraph": "Arquitetura, engenharia, liderança técnica ou só uma boa conversa sobre construir software melhor.",
+    "linkedin": "LinkedIn ↗",
+    "github": "GitHub ↗",
+    "getInTouch": "Entrar em contato",
+    "emailLabel": "E-mail"
+  },
+  "footer": {
+    "copyright": "© {year} Leandro Vilas Boas",
+    "backToTop": "Voltar ao topo ↑"
+  }
+}
