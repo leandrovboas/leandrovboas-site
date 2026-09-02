@@ -8,7 +8,7 @@ export function Expertise() {
   const cards = t.raw("cards") as ExpertiseCard[];
 
   return (
-    <section className="mx-auto max-w-[1400px] px-6 py-[clamp(80px,12vw,140px)] sm:px-8 lg:px-16">
+    <section id="expertise" className="mx-auto max-w-[1400px] px-6 py-[clamp(80px,12vw,140px)] sm:px-8 lg:px-16">
       <SectionLabel>{t("label")}</SectionLabel>
       <Reveal className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {cards.map((card) => (

@@ -6,7 +6,7 @@ import { Link } from "@/i18n/navigation";
 import { MenuIcon, CloseIcon } from "@/components/ui/icons";
 import { LocaleSwitcher } from "./LocaleSwitcher";
 
-const SECTION_IDS = ["about", "experience", "work", "knowledge", "contact"] as const;
+const SECTION_IDS = ["about", "expertise", "experience", "work", "knowledge", "contact"] as const;
 
 export function Header() {
   const t = useTranslations("nav");

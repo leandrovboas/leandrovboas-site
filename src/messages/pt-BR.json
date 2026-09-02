@@ -13,6 +13,7 @@
     "closeMenu": "Fechar menu",
     "links": {
       "about": "Sobre",
+      "expertise": "Expertise",
       "experience": "Experiência",
       "work": "Trabalho",
       "knowledge": "Conhecimento",
@@ -36,7 +37,7 @@
   "about": {
     "label": "01 — Sobre",
     "heading": "Construir software é só parte do trabalho. Desenhar sistemas e ajudar times a construí-los bem é o verdadeiro desafio.",
-    "paragraph": "Mais de 10 anos construindo software, atualmente no Itaú. Atuo como referência técnica, buscando soluções eficientes para a entrega de produtos em diferentes cenários, liderando equipes técnicas e promovendo a melhoria contínua dos processos do dia a dia. Especialista em backend com Node.js, Nest.js e C#, com foco em CI/CD, automação de testes e legibilidade de código, praticando desenvolvimento ágil e as melhores práticas de DevOps. Já atuei em landing pages, portais web, dashboards, sistemas de pontos de fidelidade, pagamentos via Pix e boleto, e-commerce e chatbots — e hoje aplico essa experiência também ao desenvolvimento assistido por IA. Atualmente também estudo Arquitetura de Soluções e já aplico a criação de diagramas C4 (Contexto e Container) no dia a dia.",
+    "paragraph": "Mais de 10 anos construindo software, atualmente no Itaú. Atuo como referência técnica, buscando soluções eficientes para a entrega de produtos em diferentes cenários, liderando equipes técnicas e promovendo a melhoria contínua dos processos do dia a dia. Especialista em backend com C#, Node.js e Nest.js, com foco em CI/CD, automação de testes e legibilidade de código, praticando desenvolvimento ágil e as melhores práticas de DevOps. Já atuei em landing pages, portais web, dashboards, sistemas de pontos de fidelidade, pagamentos via Pix e boleto, e-commerce e chatbots — e hoje aplico essa experiência também ao desenvolvimento assistido por IA, com Spec-Driven Development (SDD) no dia a dia. Atualmente também estudo Arquitetura de Soluções e já aplico a criação de diagramas C4 (Contexto e Container) no dia a dia.",
     "stats": [
       { "value": "10+", "label": "Anos construindo software" },
       { "value": "Tech Lead", "label": "Cargo atual" },
@@ -69,14 +70,21 @@
     "label": "03 — Experiência",
     "items": [
       {
-        "period": "2024 — Atual",
+        "period": "Jul 2025 — Atual",
         "role": "Tech Lead",
         "company": "Itaú",
         "description": "Orienta o desenho, a evolução e a governança de arquiteturas escaláveis, garantindo padrões de engenharia, performance, segurança e disponibilidade.",
         "tech": []
       },
       {
-        "period": "Até 2024",
+        "period": "Nov 2024 — Jul 2025",
+        "role": "Engenheiro de Software",
+        "company": "Itaú",
+        "description": "Construção, manutenção e evolução de serviços de backend, APIs RESTful e microsserviços. Atuação na migração e sustentação de sistemas legados para ambientes cloud-native, com forte foco em AWS.",
+        "tech": ["AWS", "REST APIs", "Microsserviços"]
+      },
+      {
+        "period": "Até nov 2024",
         "role": "Engenheiro de Software",
         "company": "Lambda3 / Tivit",
         "description": "Referência técnica no time, buscando soluções eficientes para a entrega de produtos em diferentes cenários. Lidera equipes técnicas, promove a troca de feedbacks e a melhoria contínua dos processos do dia a dia. Especialista em backend com foco em CI/CD, automação de testes e legibilidade de código.",
