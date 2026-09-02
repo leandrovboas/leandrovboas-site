@@ -1,7 +1,10 @@
 import { useTranslations } from "next-intl";
 import { Reveal } from "@/components/ui/Reveal";
 import { SectionLabel } from "@/components/ui/SectionLabel";
+import { WorkDiagram, type WorkDiagramVariant } from "@/components/ui/WorkDiagram";
 import type { WorkItem } from "@/types/content";
+
+const DIAGRAM_VARIANTS: WorkDiagramVariant[] = ["modernization", "architecture", "cloud", "pipeline"];
 
 export function Work() {
   const t = useTranslations("work");
@@ -25,9 +28,8 @@ export function Work() {
               ].join(" ")}
             >
               <div className="flex min-h-[280px] flex-1 basis-[380px] items-center justify-center rounded border border-border bg-surface p-6">
-                <div className="text-center font-mono text-[13px] tracking-[0.06em] text-text-secondary">
-                  {t("diagramCaption", { tag: item.tag })}
-                </div>
+                <WorkDiagram variant={DIAGRAM_VARIANTS[index % DIAGRAM_VARIANTS.length] ?? "modernization"} />
+                <span className="sr-only">{t("diagramCaption", { tag: item.tag })}</span>
               </div>
 
               <div className="flex flex-1 basis-[380px] flex-col justify-center gap-4">

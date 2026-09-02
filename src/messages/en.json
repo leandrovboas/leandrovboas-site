@@ -36,7 +36,7 @@
   "about": {
     "label": "01 — About",
     "heading": "Building software is only part of the job. Designing systems and helping teams build them well is the real challenge.",
-    "paragraph": "More than 10 years of experience building software, currently at Lambda3 / Tivit. Acts as a technical reference, finding efficient solutions for product delivery across different scenarios, leading technical teams and promoting continuous improvement of daily processes. Backend specialist with Node.js, Nest.js and C#, focused on CI/CD, test automation and code readability, practicing agile development and DevOps best practices. Has worked across landing pages, web portals, dashboards, loyalty points systems, Pix and boleto payments, e-commerce and chatbot projects, and is now applying that experience to AI-assisted development.",
+    "paragraph": "More than 10 years of experience building software, currently at Itaú. Acts as a technical reference, finding efficient solutions for product delivery across different scenarios, leading technical teams and promoting continuous improvement of daily processes. Backend specialist with Node.js, Nest.js and C#, focused on CI/CD, test automation and code readability, practicing agile development and DevOps best practices. Has worked across landing pages, web portals, dashboards, loyalty points systems, Pix and boleto payments, e-commerce and chatbot projects, and is now applying that experience to AI-assisted development. Currently also studying Solution Architecture and already applying C4 model diagrams (Context and Container) day to day.",
     "stats": [
       { "value": "10+", "label": "Years building software" },
       { "value": "Tech Lead", "label": "Current role" },
@@ -48,7 +48,7 @@
     "cards": [
       {
         "title": "Software Architecture",
-        "items": ["DDD", "Clean Architecture", "Event-Driven Architecture", "Distributed Systems", "Integration Patterns"]
+        "items": ["DDD", "Clean Architecture", "Event-Driven Architecture", "Distributed Systems", "Integration Patterns", "C4 Model (Context & Container)"]
       },
       {
         "title": "Technical Leadership",
@@ -69,7 +69,14 @@
     "label": "03 — Experience",
     "items": [
       {
-        "period": "Present",
+        "period": "2024 — Present",
+        "role": "Tech Lead",
+        "company": "Itaú",
+        "description": "Guides the design, evolution and governance of scalable architectures, ensuring engineering standards, performance, security and availability.",
+        "tech": []
+      },
+      {
+        "period": "Until 2024",
         "role": "Software Engineer",
         "company": "Lambda3 / Tivit",
         "description": "Technical reference across the team, finding efficient solutions for product delivery in different scenarios. Leads technical teams, promotes feedback exchange and continuous improvement of daily processes. Backend specialist with a focus on CI/CD, test automation and code readability.",

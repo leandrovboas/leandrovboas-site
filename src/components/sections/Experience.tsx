@@ -31,16 +31,18 @@ export function Experience() {
               <p className="mt-3 max-w-[640px] font-sans text-[15.5px] leading-[1.75] text-text-secondary">
                 {item.description}
               </p>
-              <div className="mt-4 flex flex-wrap gap-2.5">
-                {item.tech.map((tech) => (
-                  <span
-                    key={tech}
-                    className="rounded-[3px] border border-white/10 px-2.5 py-1 font-mono text-xs text-text-secondary"
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
+              {item.tech.length > 0 && (
+                <div className="mt-4 flex flex-wrap gap-2.5">
+                  {item.tech.map((tech) => (
+                    <span
+                      key={tech}
+                      className="rounded-[3px] border border-white/10 px-2.5 py-1 font-mono text-xs text-text-secondary"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              )}
             </li>
           ))}
         </ol>
