@@ -34,14 +34,14 @@ export function Hero() {
         <div className="pointer-events-none absolute left-1/2 top-1/2 aspect-square w-[64%] -translate-x-1/2 -translate-y-1/2 rounded-full border border-sky/15" />
         <div className="pointer-events-none absolute inset-x-0 top-1/2 h-px bg-white/5" />
         <div className="pointer-events-none absolute inset-y-0 left-1/2 w-px bg-white/5" />
-        <div className="relative z-10 mx-auto h-[94%] w-[76%]">
+        <div className="group relative z-10 mx-auto h-[94%] w-[76%] overflow-hidden rounded-2xl">
           <Image
             src={portrait}
             alt={t("portraitAlt")}
             fill
             priority
             sizes="(min-width: 1024px) 30vw, 70vw"
-            className="rounded-md object-cover"
+            className="object-cover transition-transform duration-500 ease-out motion-safe:group-hover:scale-105"
           />
         </div>
       </Reveal>
